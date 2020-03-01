@@ -1,0 +1,16 @@
+.CircularProgressbar {
+  width: 65px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .CircularProgressbar {
+    width: 55px;
+    position: relative;
+    float: right;
+
+    bottom: 70px;
+  }
+}

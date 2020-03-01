@@ -1,0 +1,251 @@
+.card {
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+}
+
+.cardWrap {
+  position: relative;
+  background-color: #fff;
+  border: 0.0625rem solid #e3e5ed;
+  border-radius: 0.875rem;
+  background-clip: padding-box;
+  box-shadow: 0 1px 2px 0 #e3e5ed;
+  overflow: hidden;
+  height: 400px;
+  display: grid;
+  grid-template-rows: 50% 8% 25% 10%;
+}
+
+.author {
+  font-size: 12px;
+  color: silver;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.creation {
+  margin-left: 4px;
+}
+
+.author.down {
+  font-size: 12px;
+  color: silver;
+  margin-right: 5px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0;
+}
+
+.author.down.opinionCard {
+  font-size: 12px;
+  color: #333;
+  margin-right: 5px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0;
+}
+
+.date {
+  font-size: 12px;
+  color: silver;
+  margin-right: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.wrapCreation {
+  float: right;
+  clear: right;
+  padding: 20px 10px 0px 10px;
+}
+
+.footer {
+  border-top: 0.5px solid silver;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 10% 10% 10%;
+  align-content: right;
+  margin-right: 0;
+}
+.yesno {
+  padding: 10px 10px 0px 10px;
+}
+
+.imageHome {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  border-bottom: 1px solid silver;
+}
+
+.circle {
+  margin: 10px 0px;
+}
+
+.titleHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  padding: 15px;
+}
+
+.fitting {
+  font-size: 100%;
+  align-content: center;
+}
+
+.yesno {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+div.card {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.card .logo {
+  height: 34px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  margin: 20px auto;
+}
+
+.card > .content {
+  padding: 20px;
+  margin: 0;
+}
+
+.card > .content.large {
+  padding: 40px;
+}
+
+.card.shadow {
+  border: none;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card.link {
+  cursor: pointer;
+}
+
+.card.link:hover {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card .image {
+  border-radius: 6px 6px 0 0;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card .image > .icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  height: 24px;
+}
+
+.card .image > .icon i.far {
+  color: white;
+}
+
+.card p.footer {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.card .content small.meta {
+  color: #8a8a8a;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.card .content small.location {
+  margin-bottom: 10px;
+}
+
+.card .content small.location i + span {
+  margin-left: 0;
+}
+
+.card .content h2 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card .content .price,
+.card .content .rating {
+  font-size: 13px;
+  color: #5e5e5e;
+  display: block;
+}
+
+.card .content .rating {
+  color: #8a8a8a;
+  margin-top: 8px;
+  font-size: 10px;
+  vertical-align: baseline;
+}
+
+.card .content .rating span {
+  margin-left: 5px;
+}
+
+.card .content .likes i:last-child {
+  margin-right: 5px;
+}
+
+.card .location {
+  display: block;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.card .location i {
+  margin-right: 5px;
+}
+
+.card.specs ul > li {
+  line-height: 30px;
+}
+
+.card.specs ul > li > i {
+  margin-right: 8px;
+}
+
+.card + p {
+  margin-top: 40px;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card small + form {
+  margin-top: 40px;
+}
+
+.iconLogo:hover {
+  cursor: pointer;
+}
