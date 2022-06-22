@@ -9,7 +9,7 @@
   "author": "nil armengol",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "axios": "^0.19.0",
     "bcrypt": "^3.0.8",
     "bcrypt-nodejs": "0.0.3",
